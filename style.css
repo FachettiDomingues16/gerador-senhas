@@ -4,7 +4,7 @@
     --branco: white;
     --cor-de-fundo: #074E2D;
     --fundo-senha: #07A35A;
-    --fundo-texto: #07A35A;
+    --fundo-texto: #07A35A;;
     --borda: #0075FF;
     --roboto: 'Roboto', sans-serif;
     --roboto-mono: 'Roboto Mono', monospace;
@@ -118,6 +118,12 @@ body{
     cursor: pointer;
 }label{
     font-size: 20px;
+}
+
+.barra{
+    height: 30px;
+    width: 100%;
+    background-color: hsl(152, 77%, 73%);
 }
 @media screen and (min-width: 768px) {
     .parametro-coluna__senha{
